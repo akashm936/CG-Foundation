@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+body{
+  background: #262626;
+  padding: 10px;
+}
+.mesorny{
+  columns: 4;
+  column-gap: 16px;
+}
+
+img{
+  width: 100%;
+  border-radius: 5px;
+}
+.grid-images{
+  display: inline-block;
+  margin-bottom: 16px;
+  position: relative;
+  
+}
+@media (max-width: 1200px){
+  .mesorny{
+    columns:3;
+  }  
+}
+@media (max-width: 1200px){
+    .mesorny{
+      columns:2;
+  }
+}
+  
